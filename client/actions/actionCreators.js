@@ -1,5 +1,5 @@
 // ACTIONS
-//
+
 // increment like
 export function increment(index){
   return {
