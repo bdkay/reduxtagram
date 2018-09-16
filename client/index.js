@@ -10,8 +10,10 @@ const router = (
   <Router
   history={browserHistory}
   >
-    <Route path="/" component={Main}></Route>
-    
+    <Route path="/" component={Main}>
+      <IndexRoute component="{PhotoGrid}"></IndexRoute>
+      <Route path="view/:postId" component="{Single}"></Route>
+    </Route>
   </Router>
 );
 
