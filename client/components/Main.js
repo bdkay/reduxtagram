@@ -8,6 +8,7 @@ class Main extends Component {
         <h1>
           <Link to='/'>Reduxtagram</Link>
         </h1>
+        {this.props.children}
       </div>
     )
   }
