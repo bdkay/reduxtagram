@@ -34,6 +34,6 @@ class Photo extends Component {
       </figure>
     )
   }
-};
+}
 
 export default Photo;
